@@ -1,8 +1,10 @@
+pkg load mapping;
 clear;
 clc;
 format long;
 
-raw = load('data');
+#raw = load('data');
+load data;
 
 [A u_A] = calA();
 
