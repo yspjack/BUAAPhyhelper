@@ -286,6 +286,12 @@ Octave.
 
 Update: Using `mapping` package via `pkg load mapping`
 
+If you're using Ubuntu, run the following command to install octave package.
+
+```bash
+sudo apt-get install octave-mapping
+```
+
 #### 输入
 
 ##### data
