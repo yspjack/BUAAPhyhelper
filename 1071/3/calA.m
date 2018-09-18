@@ -1,6 +1,7 @@
 function [ A, u_A ] = calA()
 
-    raw = load('Adata');
+    # raw = load('Adata');
+    load Adata;
 
     k = size(raw,1);
 
